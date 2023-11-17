@@ -1,0 +1,22 @@
+{
+  "name": "simple-djs-handler",
+  "version": "1.0.0",
+  "description": "A module that makes your life easier when creating your bot by cleaning up your code!",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cut0x/djs-handler.git"
+  },
+  "keywords": [
+    "discordjs"
+  ],
+  "author": "Cut0x",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cut0x/djs-handler/issues"
+  },
+  "homepage": "https://github.com/Cut0x/djs-handler#readme"
+}
