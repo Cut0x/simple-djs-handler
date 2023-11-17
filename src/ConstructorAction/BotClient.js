@@ -1,7 +1,4 @@
-const { Client, Collection, REST, GatewayIntentBits } = require("discord.js");
-const fs = require("node:fs");
-const path = require("node:path");
-const { Routes } = require('discord-api-types/v9');
+const { Client, Collection } = require("discord.js");
 const Logger = require("node-logger-simple");
 
 class BotClient extends Client {

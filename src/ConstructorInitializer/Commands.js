@@ -2,7 +2,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 async function init(client) {
-    const commandsPath = path.join(__dirname, '../..', 'commands');
+    const commandsPath = path.join(__dirname, '../../../..', 'commands');
 
     if (!fs.existsSync(commandsPath)) {
         fs.mkdirSync(commandsPath);

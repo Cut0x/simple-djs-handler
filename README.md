@@ -7,15 +7,16 @@ For more detailed usage and configuration information, [see the full documentati
 In the documentation you can find all the explanations and examples to get started with the module!
 
 ## Installation
-
+*with all these modules, we are good!*
 ```bash
-npm install simple-djs-handler
+npm install simple-djs-handler discord.js path fs node-logger-simple
 ```
 
 
 ## Utilisation
 ```js
 const { BotClient } = require('simple-djs-handler');
+const { GatewayIntentBits } = require('discord.js');
 
 const botOptions = {
   token: 'YOUR_BOT_TOKEN',

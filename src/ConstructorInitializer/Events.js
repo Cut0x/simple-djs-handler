@@ -2,7 +2,7 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 async function init(client) {
-    const eventsPath = path.join(__dirname, '../..', 'events');
+    const eventsPath = path.join(__dirname, '../../../..', 'events');
 
     if (!fs.existsSync(eventsPath)) {
         fs.mkdirSync(eventsPath);
@@ -15,9 +15,9 @@ async function init(client) {
         const filePath = path.join(eventsPath, file);
         const event = require(filePath);
         if (event.once) {
-            client.once(event.name, (...args) => event.load(...args));
+            client.once(event.name, (...args) => event.execute(...args));
         } else {
-            client.on(event.name, (...args) => event.load(...args));
+            client.on(event.name, (...args) => event.execute(...args));
         }
     }
 }
