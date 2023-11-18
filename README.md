@@ -3,7 +3,7 @@
 `simple-djs-handler` is a module to simplify the development of Discord bots using Discord.js.
 
 # Documentation
-For more detailed usage and configuration information, [see the full documentation](https://soon.soon/).
+For more detailed usage and configuration information, [see the full documentation]([https://soon.soon/](https://simple-djs-handler.glitch.me)).
 In the documentation you can find all the explanations and examples to get started with the module!
 
 ## Installation
