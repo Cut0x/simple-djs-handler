@@ -9,7 +9,7 @@ In the documentation you can find all the explanations and examples to get start
 ## Installation
 *with all these modules, we are good!*
 ```bash
-npm install simple-djs-handler discord.js path fs node-logger-simple
+npm install simple-djs-handler discord.js path fs
 ```
 
 

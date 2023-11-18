@@ -1,5 +1,4 @@
 const { Client, Collection } = require("discord.js");
-const Logger = require("node-logger-simple");
 
 class BotClient extends Client {
     constructor(options) {
@@ -19,9 +18,6 @@ class BotClient extends Client {
 
         this.token = options.token;
         this.commands = new Collection();
-        this.logger = new Logger({
-            logFilePath: 'console.log'
-        });
         this.slashCommandsEnabled = true;
         this.slashCommandsClientId = options.slashCommandsClientId;
     }
@@ -50,10 +46,9 @@ class BotClient extends Client {
                 this.DeploySlashCommands()
             ]);
     
-            this.logger.logSuccess("Bot is now online!");
-            this.logger.logSuccess("All slash commands have been loaded!");
+            console.log("Bot is now online!");
         } catch (error) {
-            this.logger.logError(`An error occurred during bot startup: ${error.message}`);
+            console.log(`An error occurred during bot startup: ${error.message}`);
         }
     }
 }

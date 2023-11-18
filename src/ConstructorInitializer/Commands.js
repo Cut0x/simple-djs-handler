@@ -6,7 +6,7 @@ async function init(client) {
 
     if (!fs.existsSync(commandsPath)) {
         fs.mkdirSync(commandsPath);
-        client.logger.logInfo('Created "commands" directory.');
+        console.log('Created "commands" directory.');
     }
 
     const commandFiles = fs.readdirSync(commandsPath).filter(file => file.endsWith('.js'));
@@ -18,7 +18,7 @@ async function init(client) {
         if ('data' in command && 'execute' in command) {
             client.commands.set(command.data.name, command);
         } else {
-            client.logger.logInfo(`The command at ${filePath} is missing a required "data" or "execute" property.`);
+            console.log(`The command at ${filePath} is missing a required "data" or "execute" property.`);
         }
     }
 }

@@ -6,7 +6,7 @@ async function init(client) {
 
     if (!fs.existsSync(eventsPath)) {
         fs.mkdirSync(eventsPath);
-        client.logger.logInfo('Created "events" directory.');
+        console.log('Created "events" directory.');
     }
 
     const eventFiles = fs.readdirSync(eventsPath).filter(file => file.endsWith('.js'));
