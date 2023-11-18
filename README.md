@@ -1,4 +1,4 @@
-# simple-djs-handler
+# [simple-djs-handler](https://www.npmjs.com/package/simple-djs-handler)
 
 `simple-djs-handler` is a module to simplify the development of Discord bots using Discord.js.
 
