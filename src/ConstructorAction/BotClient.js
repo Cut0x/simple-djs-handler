@@ -23,17 +23,17 @@ class BotClient extends Client {
     }
 
     async initializeEvents() {
-        const EventsInitializer = require('../ConstructorInitializer/Events');
+        const EventsInitializer = require('../FunctionsInitializer/Events');
         await EventsInitializer.init(this);
     }
 
     async initializeCommands() {
-        const CommandsInitializer = require('../ConstructorInitializer/Commands');
+        const CommandsInitializer = require('../FunctionsInitializer/Commands');
         await CommandsInitializer.init(this);
     }
 
     async DeploySlashCommands() {
-        const SlashCommandsDeployer = require('../ConstructorInitializer/SlashCommands');
+        const SlashCommandsDeployer = require('../FunctionsInitializer/SlashCommands');
         await SlashCommandsDeployer.deploy(this);
     }
     
