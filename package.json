@@ -11,8 +11,19 @@
     "url": "git+https://github.com/Cut0x/simple-djs-handler.git"
   },
   "keywords": [
-    "discordjs"
+    "discordjs",
+    "nodejs",
+    "node",
+    "discord",
+    "handler",
+    "javascript",
+    "bot"
   ],
+  "dependencies": {
+    "discord.js": "14.14.1",
+    "fs": "0.0.1-security",
+    "path": "0.12.7"
+  },
   "author": "Cut0x",
   "license": "ISC",
   "bugs": {
