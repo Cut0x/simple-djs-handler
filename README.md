@@ -1,4 +1,4 @@
-# simple-djs-handler
+# ![Alt text](./src/Assets/npm.png) simple-djs-handler
 
 `simple-djs-handler` is a module to simplify the development of Discord bots using Discord.js.
 
@@ -7,9 +7,8 @@ For more detailed usage and configuration information, [see the full documentati
 In the documentation you can find all the explanations and examples to get started with the module!
 
 ## Installation
-*with all these modules, we are good!*
 ```bash
-npm install simple-djs-handler discord.js path fs
+npm install simple-djs-handler
 ```
 
 
@@ -39,3 +38,6 @@ client.start();
 - `BotClient({ options })` -> Main class for your Discord bot, extended from Discord.js Client.
 - `BotEvent({ options })` -> A class to handle Discord events in a simplified way.
 - `BotCommand({ options })` -> A class to handle Discord slash commands in a simplified way.
+
+# Need help ?
+Join my discord server [(click here !)](https://discord.gg/aTX6FP37pK) or contact me on twitter [(Click here !)](https://twitter.com/cut0x_) !

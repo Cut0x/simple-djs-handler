@@ -4,13 +4,11 @@ const { Routes } = require('discord-api-types/v9');
 
 async function deploy(client) {
     if (!client.slashCommandsEnabled) {
-        console.log('Slash commands deployment is disabled.');
-        return;
+        throw new Error(`Slash commands deployment is disabled.`);
     }
 
     if (!client.slashCommandsClientId) {
-        console.log('Client ID for slash commands deployment is missing.');
-        return;
+        throw new Error(`Client ID for slash commands deployment is missing.`);
     }
 
     const commands = [];
@@ -34,7 +32,7 @@ async function deploy(client) {
 
         console.log(`Success! Loaded ${data.length} application commands.`);
     } catch (error) {
-        console.log(`An error occurred while loading application commands: ${error.message}`);
+        throw new Error(`An error occurred while loading application commands: ${error.message}`);
     }
 }
 

@@ -18,7 +18,7 @@ async function init(client) {
         if ('data' in command && 'execute' in command) {
             client.commands.set(command.data.name, command);
         } else {
-            console.log(`The command at ${filePath} is missing a required "data" or "execute" property.`);
+            throw new Error(`The command at ${filePath} is missing a required "data" or "execute" property.`);
         }
     }
 }

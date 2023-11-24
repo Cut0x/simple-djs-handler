@@ -48,7 +48,7 @@ class BotClient extends Client {
     
             console.log("Bot is now online!");
         } catch (error) {
-            console.log(`An error occurred during bot startup: ${error.message}`);
+            throw new Error(`An error occurred during bot startup: ${error.message}`);
         }
     }
 }
