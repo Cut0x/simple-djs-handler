@@ -1,4 +1,9 @@
-# ![Alt text](./src/Assets/npm.png) simple-djs-handler
+<p align="center">
+# ![Alt text](./src/Assets/npm.png)
+</p>
+<p align="center">
+# simple-djs-handler
+</p>
 
 `simple-djs-handler` is a module to simplify the development of Discord bots using Discord.js.
 
