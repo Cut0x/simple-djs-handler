@@ -195,5 +195,5 @@ module.exports = new BotCommand({
 # :diamond_shape_with_a_dot_inside: Free host
 
 ### :question: Get starting
-To get started, you need to create an account at <a href="https://nexcord.com/">Nexcord.com</a>
+To get started, you need to create an account at <a href="https://nexcord.com/">Nexcord.com</a><br>
 <i>Note that their support bot **Nao** uses this module.</i>
