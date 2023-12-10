@@ -177,40 +177,14 @@ module.exports = new BotCommand({
 ```
 
 ### :question: All options
-<table>
-<thead>
-  <ul>
-    <li>Option</li>
-    <li>Correspond</li>
-  </ul>
-</thead>
-<tbody>
-  <ul>
-    <li>STRING</li>
-    <li>getStringOption()</li>
-  </ul>
-  <ul>
-    <li>USER</li>
-    <li>addUserOption()</li>
-  </ul>
-  <ul>
-    <li>CHANNEL</li>
-    <li>addChannelOption()</li>
-  </ul>
-  <ul>
-    <li>ROLE</li>
-    <li>addRoleOption()</li>
-  </ul>
-  <ul>
-    <li>SUBCOMMAND</li>
-    <li>addSubcommand()</li>
-  </ul>
-  <ul>
-    <li>SUB_COMMAND_GROUP</li>
-    <li>addSubcommandGroup()</li>
-  </ul>
-</tbody>
-</table>
+| Option  | Correspond |
+| ------------- | ------------- |
+| STRING  | getStringOption()  |
+| USER  | addUserOption()  |
+| CHANNEL  | addChannelOption()  |
+| ROLE  | addRoleOption()  |
+| SUBCOMMAND  | addSubcommand()  |
+| SUB_COMMAND_GROUP  | addSubcommandGroup()  |
 
 # Features
 - `BotClient({ options })` -> Main class for your Discord bot, extended from Discord.js Client.
