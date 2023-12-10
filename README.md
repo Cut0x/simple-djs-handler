@@ -16,6 +16,10 @@ You will find everything that is useful to use the discord.js module as little a
 What's incredible is that you too can participate in improving the module!
 To find out more, head to the <a href="">How to contribute</a> category.
 
+# Credits
+
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/Cut0x?cardType=level-alternate&theme=vue-dark&preferLogin=false&Border=462ADD&Background=6137DD&Text=000000&Title=000000&Ring=000000)](https://git.io/awesome-stats-card)
+
 # Documentation
 For more detailed usage and configuration information, [see the full documentation](https://simple-djs-handler.glitch.me).
 In the documentation you can find all the explanations and examples to get started with the module!
