@@ -22,15 +22,17 @@ This module allows you to simplify the structure of your Discord bot while keepi
 You will find everything that is useful to use the discord.js module as little as possible, the module being constantly improved, it will be easy for you to improve your bots!
 
 What's incredible is that you too can participate in improving the module!
-To find out more, head to the <a href="">How to contribute</a> category.
+To find out more, head to the <a href="https://github.com/Cut0x/simple-djs-handler/issues/new">How to contribute</a> category.
 
 # Credits
 
 [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/Cut0x?cardType=level-alternate&theme=vue-dark&preferLogin=false&Border=462ADD&Background=6137DD&Text=000000&Title=000000&Ring=000000)](https://git.io/awesome-stats-card)
 
-# Documentation
-For more detailed usage and configuration information, [see the full documentation](https://simple-djs-handler.glitch.me).
-In the documentation you can find all the explanations and examples to get started with the module!
+# How to contribute ?
+
+## Create new issues
+You can <a href="">create a new issue</a> to share your idea which may no doubt be added in the future.
+![Issues](./src/Assets/image.png) ![New issue](./src/Assets/image-1.png) ![Alt text](./src/Assets/image-2.png) ![Alt text](./src/Assets/image-3.png)
 
 ## Installation
 ```bash
