@@ -12,11 +12,6 @@
 </ul></li>
 <li><a href="?tab=readme-ov-file#diamond_shape_with_a_dot_inside-tutorial">:hotsprings: Tutorial</a>
 <ul>
-<li><a href="">:large_blue_circle: Get Started</a></li>
-<li><a href="">:large_blue_circle: Create Application</a></li>
-</ul></li>
-<li><a href="">:hotsprings: Free host</a>
-<ul>
 <li><a href="?tab=readme-ov-file#question-get-started">:large_blue_circle: Get Started</a></li>
 <li><a href="?tab=readme-ov-file#question-create-application">:large_blue_circle: Create Application</a></li>
 <li><a href="?tab=readme-ov-file#question-installation">:large_blue_circle: Installation</a></li>
@@ -24,6 +19,10 @@
 <li><a href="?tab=readme-ov-file#question-events-config">:large_blue_circle: Events config</a></li>
 <li><a href="?tab=readme-ov-file#question-commands-config">:large_blue_circle: Commands config</a></li>
 <li><a href="?tab=readme-ov-file#question-all-options">:large_blue_circle: All options</a></li>
+</ul></li>
+<li><a href="">:hotsprings: Free host</a>
+<ul>
+<li><a href="?tab=readme-ov-file#">:large_blue_circle: Get Started</a></li>
 </ul></li>
 
 # :diamond_shape_with_a_dot_inside: What is `simple-djs-handler` ?
@@ -160,7 +159,7 @@ module.exports = new BotCommand({
 ```js
 // Command with option
 
-const BotCommand = require('../path/to/BotCommand');
+const BotCommand = require('simple-djs-handler');
 
 module.exports = new BotCommand({
     name: 'example',
@@ -213,3 +212,13 @@ To transfer your files, go to the **Settings** category <i>(you should preferabl
 | `Port`  | `2022`  |
 | ![Alt text](./src/Assets/image-10.png) |
 | ![Alt text](./src/Assets/image-11.png) |
+
+***WARNING!* Do not transfer the `node_modules` folder, it will take time, it will be quicker!**
+
+### :question: Install modules
+To install the modules, go to the **Startup** category in the **ADDITIONAL NODE PACKAGES** box, and you will simply put the name of this module there, `simple-djs-handler` ^^
+![Alt text](./src/Assets/image-12.png)
+
+### :question: Start the bot
+To finish, go to the **Console** category and click the button circled in red in the attached image
+![Alt text](./src/Assets/image-13.png)
