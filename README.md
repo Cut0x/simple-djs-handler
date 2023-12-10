@@ -2,9 +2,9 @@
 
 ### :question: Summary
 <ul>
-<li><a href="?tab=readme-ov-file#what-is-simple-djs-handler-">:hotsprings: What is `simple-djs-handler` ?</a></li>
-<li><a href="?tab=readme-ov-file#credits">:hotsprings: Credits</a></li>
-<li><a href="?tab=readme-ov-file#how-to-contribute-">:hotsprings: How to contribute ?</a>
+<li><a href="?tab=readme-ov-file#diamond_shape_with_a_dot_inside-what-is-simple-djs-handler-">:hotsprings: What is `simple-djs-handler` ?</a></li>
+<li><a href="?tab=readme-ov-file#diamond_shape_with_a_dot_inside-credits">:hotsprings: Credits</a></li>
+<li><a href="?tab=readme-ov-file#diamond_shape_with_a_dot_inside-how-to-contribute-">:hotsprings: How to contribute ?</a>
 <ul>
 <li><a href="?tab=readme-ov-file#create-new-issues">:large_blue_circle: New issues</a></li>
 <li><a href="?tab=readme-ov-file#on-discord">:large_blue_circle: On Discord</a></li>
