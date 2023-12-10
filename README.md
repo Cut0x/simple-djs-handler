@@ -196,4 +196,5 @@ module.exports = new BotCommand({
 
 ### :question: Get starting
 To get started, you need to create an account at <a href="https://nexcord.com/">Nexcord.com</a><br>
-<i>Note that their support bot **Nao** uses this module.</i>
+<i>Note that their support bot **Nao** uses this module.</i><br>
+Also note that **Nexcord** is the best hosting you can find, whether for web hosting (nginx), python, nodejs, java, C and much more!
