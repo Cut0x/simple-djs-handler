@@ -62,12 +62,35 @@ To configure the module to 70%, you just need to install it with npm <i>(hence t
 npm install simple-djs-handler
 ```
 
+### :question: Configure the bot
+You must initialize your main file <i>(which we will call `main.js`)</i> with this code:
+```js
+const { BotClient } = require('simple-djs-handler');
+const { GatewayIntentBits } = require('discord.js');
 
-## Installation
-```bash
-npm install simple-djs-handler
+const client = new BotClient({
+  token: 'YOUR_BOT_TOKEN',
+  slashCommandsEnabled: true, // true required for the module to function properly!
+  slashCommandsClientId: 'YOUR_CLIENT_ID',
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMembers,
+    GatewayIntentBits.GuildMessages,
+    // ... add other intents as needed
+  ],
+});
+
+client.start();
 ```
-
+In the `YOUR_BOT_TOKEN` section, go to the **Bot** category on **Discord Developer Portal** and click on the button circled in red in the attached image.
+![Alt text](./src/Assets/image-7.png)
+For `YOUR_CLIENT_ID`, return to the **General Information** page and enter your bot's ID using this button circled in red in the attached image.
+![Alt text](./src/Assets/image-8.png)
+Once all this is done, you can now do
+```bash
+node main
+```
+To launch the bot, the module will create the `commands` and `events` folder.
 
 ## Utilisation
 ```js
