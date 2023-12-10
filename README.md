@@ -212,3 +212,4 @@ To transfer your files, go to the **Settings** category <i>(you should preferabl
 | `Password`  | `your password`  |
 | `Port`  | `2022`  |
 | ![Alt text](./src/Assets/image-10.png) |
+| ![Alt text](./src/Assets/image-11.png) |
