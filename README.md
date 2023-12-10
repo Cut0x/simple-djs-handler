@@ -19,6 +19,7 @@
 <li><a href="?tab=readme-ov-file#question-events-config">:large_blue_circle: Events config</a></li>
 <li><a href="?tab=readme-ov-file#question-commands-config">:large_blue_circle: Commands config</a></li>
 <li><a href="?tab=readme-ov-file#question-all-options">:large_blue_circle: All options</a></li>
+<li><a href="?tab=readme-ov-file#question-create-embed">:large_blue_circle: Create embed</a></li>
 </ul></li>
 <li><a href="?tab=readme-ov-file#diamond_shape_with_a_dot_inside-free-host">:hotsprings: Free host</a>
 <ul>
@@ -163,7 +164,7 @@ module.exports = new BotCommand({
 ```js
 // Command with option
 
-const BotCommand = require('simple-djs-handler');
+const { BotCommand } = require('simple-djs-handler');
 
 module.exports = new BotCommand({
     name: 'example',
@@ -194,6 +195,61 @@ module.exports = new BotCommand({
 | `ROLE`  | `addRoleOption()`  |
 | `SUBCOMMAND`  | `addSubcommand()`  |
 | `SUB_COMMAND_GROUP`  | `addSubcommandGroup()`  |
+
+### :question: Create embed
+To use embeds you need to use the json form of the structure, here is a complete embed:
+```js
+const { CreateEmbed } = require('simple-djs-handler');
+
+const embed = new CreateEmbed({
+	color: 0x0099ff,
+	title: 'Some title',
+	url: 'https://nexcord.com',
+	author: {
+		name: 'Some name',
+		icon_url: 'icon_url',
+		url: 'https://nexcord.com',
+	},
+	description: 'Some description here',
+	thumbnail: {
+		url: 'image_url',
+	},
+	fields: [
+		{
+			name: 'Regular field title',
+			value: 'Some value here',
+		},
+		{
+			name: '\u200b',
+			value: '\u200b',
+			inline: false,
+		},
+		{
+			name: 'Inline field title',
+			value: 'Some value here',
+			inline: true,
+		},
+		{
+			name: 'Inline field title',
+			value: 'Some value here',
+			inline: true,
+		},
+		{
+			name: 'Inline field title',
+			value: 'Some value here',
+			inline: true,
+		},
+	],
+	image: {
+		url: 'image_url',
+	},
+	timestamp: new Date().toISOString(),
+	footer: {
+		text: 'Some footer text here',
+		icon_url: 'icon_url',
+	},
+})
+```
 
 # :diamond_shape_with_a_dot_inside: Free host
 
