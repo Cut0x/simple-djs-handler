@@ -49,6 +49,20 @@ You can also contact me by private message <a href="https://twitter.com/cut0x_">
 ### :question: Get Started
 To get started, you need to install <a href="">NodeJs</a> <i>(the recommended version)</i> so that everything works during testing. As for the code editor, by preference, I recommend <a href="">Visual Studio Code</a> <i>(configurable as you wish)</i>.
 
+### :question: Create Application
+Visit the <a href="https://discord.com/developers/applications">Discord Developer Portal</a> to create your app.
+![Alt text](./src/Assets/image-4.png)
+![Alt text](./src/Assets/image-5.png)
+![Alt text](./src/Assets/image-6.png)
+And there you have it, you have created a Discord application! Leave the window open, for the rest, we will need the page.
+
+### :question: Installation
+To configure the module to 70%, you just need to install it with npm <i>(hence the usefulness of NodeJs)</i>.
+```bash
+npm install simple-djs-handler
+```
+
+
 ## Installation
 ```bash
 npm install simple-djs-handler
