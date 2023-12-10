@@ -17,7 +17,13 @@
 </ul></li>
 <li><a href="">:hotsprings: Free host</a>
 <ul>
-<li><a href="">:large_blue_circle: Get Started</a></li>
+<li><a href="?tab=readme-ov-file#question-get-started">:large_blue_circle: Get Started</a></li>
+<li><a href="?tab=readme-ov-file#question-create-application">:large_blue_circle: Create Application</a></li>
+<li><a href="?tab=readme-ov-file#question-installation">:large_blue_circle: Installation</a></li>
+<li><a href="?tab=readme-ov-file#question-configure-the-bot">:large_blue_circle: Configure the bot</a></li>
+<li><a href="?tab=readme-ov-file#question-events-config">:large_blue_circle: Events config</a></li>
+<li><a href="?tab=readme-ov-file#question-commands-config">:large_blue_circle: Commands config</a></li>
+<li><a href="?tab=readme-ov-file#question-all-options">:large_blue_circle: All options</a></li>
 </ul></li>
 
 # :diamond_shape_with_a_dot_inside: What is `simple-djs-handler` ?
@@ -185,11 +191,3 @@ module.exports = new BotCommand({
 | `ROLE`  | `addRoleOption()`  |
 | `SUBCOMMAND`  | `addSubcommand()`  |
 | `SUB_COMMAND_GROUP`  | `addSubcommandGroup()`  |
-
-# Features
-- `BotClient({ options })` -> Main class for your Discord bot, extended from Discord.js Client.
-- `BotEvent({ options })` -> A class to handle Discord events in a simplified way.
-- `BotCommand({ options })` -> A class to handle Discord slash commands in a simplified way.
-
-# Need help ?
-Join my discord server [(click here !)](https://discord.gg/aTX6FP37pK) or contact me on twitter [(Click here !)](https://twitter.com/cut0x_) !
