@@ -1,6 +1,6 @@
 # :diamond_shape_with_a_dot_inside: Simple Discord.js Handler
 
-## :question: Summary
+### :question: Summary
 <ul>
 <li><a href="?tab=readme-ov-file#what-is-simple-djs-handler-">:hotsprings: What is `simple-djs-handler` ?</a></li>
 <li><a href="?tab=readme-ov-file#credits">:hotsprings: Credits</a></li>
@@ -34,19 +34,19 @@ To find out more, head to the <a href="https://github.com/Cut0x/simple-djs-handl
 
 # :diamond_shape_with_a_dot_inside: How to contribute ?
 
-## Create new issues
+### :question: Create new issues
 You can <a href="">create a new issue</a> to share your idea which may no doubt be added in the future.
 ![Issues](./src/Assets/image.png) ![New issue](./src/Assets/image-1.png) ![Alt text](./src/Assets/image-2.png) ![Alt text](./src/Assets/image-3.png)
 
-## On Discord
+### :question: On Discord
 You can <a href="https://discord.gg/aTX6FP37pK ">join my discord server</a>, go to the "programmation" forum room and create a new post with the tag `simple-djs-handl`.
 
-## On Twitter (&Xopf;)
+### :question: On Twitter (&Xopf;)
 You can also contact me by private message <a href="https://twitter.com/cut0x_">directly on Twitter</a>!
 
 # :diamond_shape_with_a_dot_inside: Tutorial
 
-## Get Started
+### :question: Get Started
 To get started, you need to install <a href="">NodeJs</a> <i>(the recommended version)</i> so that everything works during testing. As for the code editor, by preference, I recommend <a href="">Visual Studio Code</a> <i>(configurable as you wish)</i>.
 
 ## Installation
