@@ -134,6 +134,83 @@ module.exports = new BotEvent({
 });
 ```
 
+### :question: Commands config
+Here is the command structure with all the possibilities
+```js
+// Command without option
+
+const { BotCommand } = require('simple-djs-handler');
+
+module.exports = new BotCommand({
+    name: 'simple',
+    description: 'An simple example command without options',
+    execute: async (client, interaction) => {
+        interaction.reply({
+            content: "it's a simple command !"
+        })
+    },
+});
+```
+```js
+// Command with option
+
+const BotCommand = require('../path/to/BotCommand');
+
+module.exports = new BotCommand({
+    name: 'example',
+    description: 'An example command with options',
+    options: [
+        // Add your custom options for SlashCommandBuilder here
+        {
+            name: 'example_option',
+            description: 'An example option',
+            type: 'STRING', // All options in the table below
+            required: true, // false if it's not required
+        },
+        // ... other options
+    ],
+    execute: async (interaction) => {
+        const stringOption = interaction.options.getString('exemple_option');
+        // Your order logic here (see simple command example)
+    },
+});
+```
+
+### :question: All options
+<table>
+<thead>
+  <ul>
+    <li>Option</li>
+    <li>Correspond</li>
+  </ul>
+</thead>
+<tbody>
+  <ul>
+    <li>STRING</li>
+    <li>getStringOption()</li>
+  </ul>
+  <ul>
+    <li>USER</li>
+    <li>addUserOption()</li>
+  </ul>
+  <ul>
+    <li>CHANNEL</li>
+    <li>addChannelOption()</li>
+  </ul>
+  <ul>
+    <li>ROLE</li>
+    <li>addRoleOption()</li>
+  </ul>
+  <ul>
+    <li>SUBCOMMAND</li>
+    <li>addSubcommand()</li>
+  </ul>
+  <ul>
+    <li>SUB_COMMAND_GROUP</li>
+    <li>addSubcommandGroup()</li>
+  </ul>
+</tbody>
+</table>
 
 # Features
 - `BotClient({ options })` -> Main class for your Discord bot, extended from Discord.js Client.
