@@ -6,8 +6,9 @@
 <li><a href="?tab=readme-ov-file#credits">:hotsprings: Credits</a>
 <li><a href="">:hotsprings: How to contribute ?</a></li>
 <li><a href="">:hotsprings: Tutorial</a>
-<li><a href="">:large_blue_circle: Get Started</a></li></li>
-</ul>
+<ul>
+<li><a href="">:large_blue_circle: Get Started</a></li>
+</ul></li>
 
 # What is `simple-djs-handler` ?
 
