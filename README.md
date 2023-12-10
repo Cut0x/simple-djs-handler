@@ -3,9 +3,10 @@
 ## :question: Summary
 <ul>
 <li><a href="?tab=readme-ov-file#what-is-simple-djs-handler-">:hotsprings: What is `simple-djs-handler` ?</a></li>
-<li><a href="?tab=readme-ov-file#credits">:hotsprings: Credits</a></li>
+<li><a href="?tab=readme-ov-file#credits">:hotsprings: Credits</a>
 <li><a href="">:hotsprings: How to contribute ?</a></li>
-<li><a href="">:hotsprings: Tutorial</a></li>
+<li><a href="">:hotsprings: Tutorial</a>
+<li><a href="">:large_blue_circle: Get Started</a></li></li>
 </ul>
 
 # What is `simple-djs-handler` ?
