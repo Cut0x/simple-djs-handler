@@ -179,12 +179,12 @@ module.exports = new BotCommand({
 ### :question: All options
 | Option  | Correspond |
 | ------------- | ------------- |
-| STRING  | getStringOption()  |
-| USER  | addUserOption()  |
-| CHANNEL  | addChannelOption()  |
-| ROLE  | addRoleOption()  |
-| SUBCOMMAND  | addSubcommand()  |
-| SUB_COMMAND_GROUP  | addSubcommandGroup()  |
+| `STRING`  | `getStringOption()`  |
+| `USER`  | `addUserOption()`  |
+| `CHANNEL`  | `addChannelOption()`  |
+| `ROLE`  | `addRoleOption()`  |
+| `SUBCOMMAND`  | `addSubcommand()`  |
+| `SUB_COMMAND_GROUP`  | `addSubcommandGroup()`  |
 
 # Features
 - `BotClient({ options })` -> Main class for your Discord bot, extended from Discord.js Client.
