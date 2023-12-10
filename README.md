@@ -34,6 +34,10 @@ To find out more, head to the <a href="https://github.com/Cut0x/simple-djs-handl
 You can <a href="">create a new issue</a> to share your idea which may no doubt be added in the future.
 ![Issues](./src/Assets/image.png) ![New issue](./src/Assets/image-1.png) ![Alt text](./src/Assets/image-2.png) ![Alt text](./src/Assets/image-3.png)
 
+## On Discord
+You can <a href="https://discord.gg/aTX6FP37pK ">join my discord server</a>, go to the "programmation" forum room and create a new post with the tag `simple-djs-handl`.
+
+
 ## Installation
 ```bash
 npm install simple-djs-handler
