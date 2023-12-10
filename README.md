@@ -1,11 +1,11 @@
 # Simple Discord.js Handler
 
-## Summary
+## :question: Summary
 <ul>
-<li><a href="">What is `simple-djs-handler` ?</a></li>
-<li><a href="">Credits</a></li>
-<li><a href="">How to contribute ?</a></li>
-<li><a href="">Tutorial</a></li>
+<li><a href="">:hotsprings: What is `simple-djs-handler` ?</a></li>
+<li><a href="">:hotsprings: Credits</a></li>
+<li><a href="">:hotsprings: How to contribute ?</a></li>
+<li><a href="">:hotsprings: Tutorial</a></li>
 </ul>
 
 # What is `simple-djs-handler` ?
