@@ -6,11 +6,11 @@
 <li><a href="?tab=readme-ov-file#diamond_shape_with_a_dot_inside-credits">:hotsprings: Credits</a></li>
 <li><a href="?tab=readme-ov-file#diamond_shape_with_a_dot_inside-how-to-contribute-">:hotsprings: How to contribute ?</a>
 <ul>
-<li><a href="?tab=readme-ov-file#create-new-issues">:large_blue_circle: New issues</a></li>
-<li><a href="?tab=readme-ov-file#on-discord">:large_blue_circle: On Discord</a></li>
-<li><a href="?tab=readme-ov-file#on-twitter-𝕏">:large_blue_circle: On Twitter (&Xopf;)</a></li>
+<li><a href="?tab=readme-ov-file#question-create-new-issues">:large_blue_circle: New issues</a></li>
+<li><a href="?tab=readme-ov-file#question-on-discord">:large_blue_circle: On Discord</a></li>
+<li><a href="?tab=readme-ov-file#question-on-twitter-𝕏">:large_blue_circle: On Twitter (&Xopf;)</a></li>
 </ul></li>
-<li><a href="">:hotsprings: Tutorial</a>
+<li><a href="?tab=readme-ov-file#diamond_shape_with_a_dot_inside-tutorial">:hotsprings: Tutorial</a>
 <ul>
 <li><a href="">:large_blue_circle: Get Started</a></li>
 <li><a href="">:large_blue_circle: Create Application</a></li>
