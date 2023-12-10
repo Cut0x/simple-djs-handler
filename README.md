@@ -20,9 +20,13 @@
 <li><a href="?tab=readme-ov-file#question-commands-config">:large_blue_circle: Commands config</a></li>
 <li><a href="?tab=readme-ov-file#question-all-options">:large_blue_circle: All options</a></li>
 </ul></li>
-<li><a href="">:hotsprings: Free host</a>
+<li><a href="?tab=readme-ov-file#diamond_shape_with_a_dot_inside-free-host">:hotsprings: Free host</a>
 <ul>
-<li><a href="?tab=readme-ov-file#">:large_blue_circle: Get Started</a></li>
+<li><a href="?tab=readme-ov-file#question-get-started">:large_blue_circle: Get Started</a></li>
+<li><a href="?tab=readme-ov-file#question-create-nodejs-server">:large_blue_circle: Create nodejs server</a></li>
+<li><a href="?tab=readme-ov-file#question-transfert-files">:large_blue_circle: Transfert files</a></li>
+<li><a href="?tab=readme-ov-file#question-install-modules">:large_blue_circle: Install modules</a></li>
+<li><a href="?tab=readme-ov-file#question-start-the-bot">:large_blue_circle: Start the bot</a></li>
 </ul></li>
 
 # :diamond_shape_with_a_dot_inside: What is `simple-djs-handler` ?
