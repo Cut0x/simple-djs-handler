@@ -47,6 +47,7 @@ You can also contact me by private message <a href="https://twitter.com/cut0x_">
 # :diamond_shape_with_a_dot_inside: Tutorial
 
 ## Get Started
+To get started, you need to install <a href="">NodeJs</a> <i>(the recommended version)</i> so that everything works during testing. As for the code editor, by preference, I recommend <a href="">Visual Studio Code</a> <i>(configurable as you wish)</i>.
 
 ## Installation
 ```bash
