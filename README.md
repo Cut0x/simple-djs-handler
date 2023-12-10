@@ -191,3 +191,9 @@ module.exports = new BotCommand({
 | `ROLE`  | `addRoleOption()`  |
 | `SUBCOMMAND`  | `addSubcommand()`  |
 | `SUB_COMMAND_GROUP`  | `addSubcommandGroup()`  |
+
+# :diamond_shape_with_a_dot_inside: Free host
+
+### :question: Get starting
+To get started, you need to create an account at <a href="https://nexcord.com/">Nexcord.com</a>
+<i>Note that their support bot **Nao** uses this module.</i>
