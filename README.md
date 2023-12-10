@@ -201,7 +201,7 @@ To use embeds you need to use the json form of the structure, here is a complete
 ```js
 const { CreateEmbed } = require('simple-djs-handler');
 
-const embed = new CreateEmbed({
+const my_embed = new CreateEmbed({
 	color: 0x0099ff,
 	title: 'Some title',
 	url: 'https://nexcord.com',
@@ -248,6 +248,12 @@ const embed = new CreateEmbed({
 		text: 'Some footer text here',
 		icon_url: 'icon_url',
 	},
+})
+
+interaction.reply({
+  embeds: [
+    my_embed
+  ]
 })
 ```
 
