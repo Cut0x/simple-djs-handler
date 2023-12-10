@@ -195,10 +195,20 @@ module.exports = new BotCommand({
 # :diamond_shape_with_a_dot_inside: Free host
 
 ### :question: Get starting
-To get started, you need to create an account at <a href="https://nexcord.com/">Nexcord.com</a><br>
+To get started, you need to create an account at <a href="https://nexcord.com/">Nexcord.com</a>.<br>
 <i>Note that their support bot **Nao** uses this module.</i><br>
 Also note that **Nexcord** is the best hosting you can find, whether for web hosting (nginx), python, nodejs, java, C and much more!
 
 ### :question: Create nodejs server
 In the **Server** category, you will press the button circled in red in the attached image
 ![Alt text](./src/Assets/image-9.png)
+
+### :question: Transfert files
+To transfer your files, go to the **Settings** category <i>(you should preferably install Filezilla to transfer the files)</i>
+| Option  | Correspond |
+| ------------- | ------------- |
+| `Hote`  | `sftp://server.nexcord.com`  |
+| `Username`  | `your username`  |
+| `Password`  | `your password`  |
+| `Port`  | `2022`  |
+![Alt text](./src/Assets/image-10.png)
