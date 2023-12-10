@@ -1,6 +1,7 @@
 # Simple Discord.js Handler
 
-<ul>Summary
+## Summary
+<ul>
 <li><a href="">What is `simple-djs-handler` ?</a></li>
 <li><a href="">Credits</a></li>
 <li><a href="">How to contribute ?</a></li>
