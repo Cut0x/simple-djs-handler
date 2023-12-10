@@ -1,22 +1,26 @@
-# Simple Discord.js Handler
+# :diamond_shape_with_a_dot_inside: Simple Discord.js Handler
 
 ## :question: Summary
 <ul>
 <li><a href="?tab=readme-ov-file#what-is-simple-djs-handler-">:hotsprings: What is `simple-djs-handler` ?</a></li>
 <li><a href="?tab=readme-ov-file#credits">:hotsprings: Credits</a></li>
-<li><a href="">:hotsprings: How to contribute ?</a>
+<li><a href="?tab=readme-ov-file#how-to-contribute-">:hotsprings: How to contribute ?</a>
 <ul>
-<li><a href="">:large_blue_circle: New issues</a></li>
-<li><a href="">:large_blue_circle: On Discord</a></li>
-<li><a href="">:large_blue_circle: On Twitter (&Xopf;)</a></li>
+<li><a href="?tab=readme-ov-file#create-new-issues">:large_blue_circle: New issues</a></li>
+<li><a href="?tab=readme-ov-file#on-discord">:large_blue_circle: On Discord</a></li>
+<li><a href="?tab=readme-ov-file#on-twitter-𝕏">:large_blue_circle: On Twitter (&Xopf;)</a></li>
 </ul></li>
 <li><a href="">:hotsprings: Tutorial</a>
 <ul>
 <li><a href="">:large_blue_circle: Get Started</a></li>
+<li><a href="">:large_blue_circle: Create Application</a></li>
 </ul></li>
-<li><a href="">:hotsprings: Free host</a></li>
+<li><a href="">:hotsprings: Free host</a>
+<ul>
+<li><a href="">:large_blue_circle: Get Started</a></li>
+</ul></li>
 
-# What is `simple-djs-handler` ?
+# :diamond_shape_with_a_dot_inside: What is `simple-djs-handler` ?
 
 This module allows you to simplify the structure of your Discord bot while keeping the code clean and readable. It is entirely coded in JavaScript with NodeJs. To use this module you need to know the basics of JavaScript and Discord.js.
 You will find everything that is useful to use the discord.js module as little as possible, the module being constantly improved, it will be easy for you to improve your bots!
@@ -24,11 +28,11 @@ You will find everything that is useful to use the discord.js module as little a
 What's incredible is that you too can participate in improving the module!
 To find out more, head to the <a href="https://github.com/Cut0x/simple-djs-handler/issues/new">How to contribute</a> category.
 
-# Credits
+# :diamond_shape_with_a_dot_inside: Credits
 
 [![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/Cut0x?cardType=level-alternate&theme=vue-dark&preferLogin=false&Border=462ADD&Background=6137DD&Text=000000&Title=000000&Ring=000000)](https://git.io/awesome-stats-card)
 
-# How to contribute ?
+# :diamond_shape_with_a_dot_inside: How to contribute ?
 
 ## Create new issues
 You can <a href="">create a new issue</a> to share your idea which may no doubt be added in the future.
@@ -39,6 +43,10 @@ You can <a href="https://discord.gg/aTX6FP37pK ">join my discord server</a>, go 
 
 ## On Twitter (&Xopf;)
 You can also contact me by private message <a href="https://twitter.com/cut0x_">directly on Twitter</a>!
+
+# :diamond_shape_with_a_dot_inside: Tutorial
+
+## Get Started
 
 ## Installation
 ```bash
