@@ -8,6 +8,7 @@
 <ul>
 <li><a href="">:large_blue_circle: New issues</a></li>
 <li><a href="">:large_blue_circle: On Discord</a></li>
+<li><a href="">:large_blue_circle: On Twitter (&Xopf;)</a></li>
 </ul></li>
 <li><a href="">:hotsprings: Tutorial</a>
 <ul>
