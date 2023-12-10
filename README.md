@@ -37,6 +37,8 @@ You can <a href="">create a new issue</a> to share your idea which may no doubt 
 ## On Discord
 You can <a href="https://discord.gg/aTX6FP37pK ">join my discord server</a>, go to the "programmation" forum room and create a new post with the tag `simple-djs-handl`.
 
+## On Twitter (&Xopf;)
+You can also contact me by private message <a href="https://twitter.com/cut0x_">directly on Twitter</a>!
 
 ## Installation
 ```bash
