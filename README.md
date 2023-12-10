@@ -92,27 +92,48 @@ node main
 ```
 To launch the bot, the module will create the `commands` and `events` folder.
 
-## Utilisation
+### :question: Events config
+I'm going to make you the `Ready.js` file which you need to make in the `./events/` folder which leads to `./events/Ready.js`.
 ```js
-const { BotClient } = require('simple-djs-handler');
-const { GatewayIntentBits } = require('discord.js');
+const { BotEvent } = require('simple-djs-handler');
+const { Events } = require('discord.js');
 
-const botOptions = {
-  token: 'YOUR_BOT_TOKEN',
-  slashCommandsEnabled: true, // true required for the module to function properly!
-  slashCommandsClientId: 'YOUR_CLIENT_ID',
-  intents: [
-    GatewayIntentBits.Guilds,
-    GatewayIntentBits.GuildMembers,
-    GatewayIntentBits.GuildMessages,
-    // ... add other intents as needed
-  ],
-};
-
-const client = new BotClient(botOptions);
-
-client.start();
+module.exports = new BotEvent({
+    name: Events.ClientReady,
+    once: true, // This allows the code to be executed only once, for other event files, do not put `once: true`
+    execute(client) {        
+      client.user.setActivity('Visual Studio Code')
+    },
+});
 ```
+To create the slashcommands, I will also create the `InteractionCreate.js` file which will therefore be in the direction `./events/InteractionCreate.js`.
+```js
+const { BotEvent } = require('simple-djs-handler');
+const { Events } = require('discord.js');
+
+module.exports = new BotEvent({
+    name: Events.InteractionCreate,
+    async execute(interaction) {
+        if (!interaction.isChatInputCommand()) return;
+
+        const command = interaction.client.commands.get(interaction.commandName);
+
+        const client = interaction.client;
+
+        if (!command) {
+            console.log(`No order match ${interaction.commandName} was found.`)
+            return;
+        }
+
+        try {
+            await command.execute(client, interaction);
+        } catch (error) {
+            console.log(`Erreur lors du lancement d'une commande : ${error}`);
+        }
+    },
+});
+```
+
 
 # Features
 - `BotClient({ options })` -> Main class for your Discord bot, extended from Discord.js Client.
