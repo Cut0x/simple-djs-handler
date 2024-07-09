@@ -5,10 +5,11 @@ const { CreateEmbed } = require("./src/ConstructorAction/CreateEmbed");
 
 const { version } = require("./package.json")
 
+const module_version = version;
+
 module.exports = {
     BotClient,
     BotEvent,
     BotCommand,
-    CreateEmbed,
-    version
+    module_version
 };
