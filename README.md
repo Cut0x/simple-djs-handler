@@ -142,66 +142,6 @@ module.exports = new BotCommand({
 | `SUBCOMMAND`  | `addSubcommand()`  |
 | `SUB_COMMAND_GROUP`  | `addSubcommandGroup()`  |
 
-### :question: Create embed
-To use embeds you need to use the json form of the structure, here is a complete embed:
-```js
-const { CreateEmbed } = require('simple-djs-handler');
-
-const my_embed = new CreateEmbed({
-	color: 0x0099ff,
-	title: 'Some title',
-	url: 'https://nexcord.com',
-	author: {
-		name: 'Some name',
-		icon_url: 'icon_url',
-		url: 'https://nexcord.com',
-	},
-	description: 'Some description here',
-	thumbnail: {
-		url: 'image_url',
-	},
-	fields: [
-		{
-			name: 'Regular field title',
-			value: 'Some value here',
-		},
-		{
-			name: '\u200b',
-			value: '\u200b',
-			inline: false,
-		},
-		{
-			name: 'Inline field title',
-			value: 'Some value here',
-			inline: true,
-		},
-		{
-			name: 'Inline field title',
-			value: 'Some value here',
-			inline: true,
-		},
-		{
-			name: 'Inline field title',
-			value: 'Some value here',
-			inline: true,
-		},
-	],
-	image: {
-		url: 'image_url',
-	},
-	timestamp: new Date().toISOString(),
-	footer: {
-		text: 'Some footer text here',
-		icon_url: 'icon_url',
-	},
-})
-
-interaction.reply({
-  embeds: [
-    my_embed
-  ]
-})
-```
 
 # :diamond_shape_with_a_dot_inside: Free host
 
@@ -209,28 +149,3 @@ interaction.reply({
 To get started, you need to create an account at <a href="https://nexcord.com/">Nexcord.com</a>.<br>
 <i>Note that their support bot **Nao** uses this module.</i><br>
 Also note that **Nexcord** is the best hosting you can find, whether for web hosting (nginx), python, nodejs, java, C and much more!
-
-### :question: Create nodejs server
-In the **Server** category, you will press the button circled in red in the attached image
-![Alt text](./src/Assets/image-9.png)
-
-### :question: Transfert files
-To transfer your files, go to the **Settings** category <i>(you should preferably install Filezilla to transfer the files)</i>
-| Option  | Correspond |
-| ------------- | ------------- |
-| `Hote`  | `sftp://server.nexcord.com`  |
-| `Username`  | `your username`  |
-| `Password`  | `your password`  |
-| `Port`  | `2022`  |
-| ![Alt text](./src/Assets/image-10.png) |
-| ![Alt text](./src/Assets/image-11.png) |
-
-***WARNING!* Do not transfer the `node_modules` folder, it will take time, it will be quicker!**
-
-### :question: Install modules
-To install the modules, go to the **Startup** category in the **ADDITIONAL NODE PACKAGES** box, and you will simply put the name of this module there, `simple-djs-handler` ^^
-![Alt text](./src/Assets/image-12.png)
-
-### :question: Start the bot
-To finish, go to the **Console** category and click the button circled in red in the attached image
-![Alt text](./src/Assets/image-13.png)
