@@ -7,9 +7,9 @@ To get started, you need to install <a href="">NodeJs</a> <i>(the recommended ve
 
 ### :question: Create Application
 Visit the <a href="https://discord.com/developers/applications">Discord Developer Portal</a> to create your app.
-![Alt text](./src/Assets/image-4.png)
-![Alt text](./src/Assets/image-5.png)
-![Alt text](./src/Assets/image-6.png)
+![Alt text](https://valloic.dev/imgs/sdjsh/image-4.png)
+![Alt text](https://valloic.dev/imgs/sdjsh/image-5.png)
+![Alt text](https://valloic.dev/imgs/sdjsh/image-6.png)
 And there you have it, you have created a Discord application! Leave the window open, for the rest, we will need the page.
 
 ### :question: Installation
@@ -39,9 +39,9 @@ const client = new BotClient({
 client.start();
 ```
 In the `YOUR_BOT_TOKEN` section, go to the **Bot** category on **Discord Developer Portal** and click on the button circled in red in the attached image.
-![Alt text](./src/Assets/image-7.png)
+![Alt text](https://valloic.dev/imgs/sdjsh/image-7.png)
 For `YOUR_CLIENT_ID`, return to the **General Information** page and enter your bot's ID using this button circled in red in the attached image.
-![Alt text](./src/Assets/image-8.png)
+![Alt text](https://valloic.dev/imgs/sdjsh/image-8.png)
 Once all this is done, you can now do
 ```bash
 node main
