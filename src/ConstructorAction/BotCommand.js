@@ -39,6 +39,13 @@ class BotCommand {
                             .setRequired(required)
                         );
                         break;
+                    case 'BOOLEAN':
+                        this.data.addBooleanOption(option => option
+                            .setName(name)
+                            .setDescription(description || 'No description provided.')
+                            .setRequired(required)
+                        );
+                        break;
                     case 'SUB_COMMAND':
                         this.data.addSubcommand(subcommand => {
                             subcommand
