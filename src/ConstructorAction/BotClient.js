@@ -45,8 +45,6 @@ class BotClient extends Client {
                 this.login(this.token),
                 this.DeploySlashCommands()
             ]);
-    
-            console.log("Bot is now online!");
         } catch (error) {
             throw new Error(`An error occurred during bot startup: ${error.message}`);
         }
