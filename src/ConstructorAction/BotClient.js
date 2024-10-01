@@ -1,53 +1,45 @@
-const { Client, Collection } = require("discord.js");
+
+const { Client, Collection, GatewayIntentBits } = require('discord.js');
+const { loadCommands } = require('../FunctionsInitializer/Commands');
+const { loadEvents } = require('../FunctionsInitializer/Events');
 
 class BotClient extends Client {
     constructor(options) {
-        super(options);
-
-        if (!options.token) {
-            throw new Error("A bot token must be provided.");
-        }
-
-        if (!options.slashCommandsEnabled) {
-            throw new Error("slashCommandsEnabled must be set to true.");
-        }
-
-        if (!options.slashCommandsClientId) {
-            throw new Error("Client ID for slash commands deployment is required when slash commands are enabled.");
-        }
+        super({
+            intents: [
+                GatewayIntentBits.Guilds,
+                GatewayIntentBits.GuildMembers,
+                GatewayIntentBits.GuildMessages,
+                GatewayIntentBits.MessageContent,
+            ],
+        });
 
         this.token = options.token;
         this.commands = new Collection();
-        this.slashCommandsEnabled = true;
+        this.slashCommandsEnabled = options.slashCommandsEnabled;
         this.slashCommandsClientId = options.slashCommandsClientId;
+
+        this.loadAll();
     }
 
-    async initializeEvents() {
-        const EventsInitializer = require('../FunctionsInitializer/Events');
-        await EventsInitializer.init(this);
-    }
-
-    async initializeCommands() {
-        const CommandsInitializer = require('../FunctionsInitializer/Commands');
-        await CommandsInitializer.init(this);
-    }
-
-    async DeploySlashCommands() {
-        const SlashCommandsDeployer = require('../FunctionsInitializer/SlashCommands');
-        await SlashCommandsDeployer.deploy(this);
-    }
-    
-    async start() {
+    // Load all commands and events dynamically
+    async loadAll() {
         try {
-            await Promise.all([
-                this.initializeEvents(),
-                this.initializeCommands(),
-                this.login(this.token),
-                this.DeploySlashCommands()
-            ]);
+            await loadCommands(this);
+            await loadEvents(this);
         } catch (error) {
-            throw new Error(`An error occurred during bot startup: ${error.message}`);
+            console.error('Error loading commands or events:', error);
         }
+    }
+
+    // Start the bot and log errors if any
+    start() {
+        this.login(this.token)
+            .then(() => console.log('Bot logged in successfully!'))
+            .catch(error => {
+                console.error('Failed to log in:', error);
+                process.exit(1);
+            });
     }
 }
 
