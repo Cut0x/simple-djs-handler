@@ -144,5 +144,3 @@ module.exports = new BotCommand({
 | `SUB_COMMAND_GROUP`| `addSubcommandGroup()`           |
 
 ---
-
-This simplified version of the document provides essential steps to set up a Discord.js bot using the `simple-djs-handler` module.
