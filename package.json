@@ -1,6 +1,6 @@
 {
   "name": "simple-djs-handler",
-  "version": "5.1.0",
+  "version": "7.0.2",
   "description": "A module that makes your life easier when creating your bot by cleaning up your code!",
   "main": "App.js",
   "scripts": {
@@ -20,9 +20,11 @@
     "bot"
   ],
   "dependencies": {
-    "discord.js": "14.14.1",
+    "discord.js": "^14.14.1",
     "fs": "0.0.1-security",
-    "path": "0.12.7"
+    "node-logger-simple": "^5.1.1",
+    "path": "0.12.7",
+    "simple-djs-handler": "^5.0.0"
   },
   "author": "Cut0x",
   "license": "ISC",
