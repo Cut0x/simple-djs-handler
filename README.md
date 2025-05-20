@@ -91,7 +91,7 @@ module.exports = {
     data: new SlashCommandBuilder()
         .setName('exemple')
         .setDescription('exemple slash command')
-        .addUserOption(option =>
+        .addStringOption(option =>
             option
                 .setName('example_option')
                 .setDescription('Exemple option')
