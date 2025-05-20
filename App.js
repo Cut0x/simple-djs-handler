@@ -35,7 +35,7 @@ class BotClient extends Client {
 
     // Initialize the logger with the provided configuration
     this.logger = new Logger(config.logger);
-    this.logger.logSuccess("Logger successfully initialized.");
+    //this.logger.logSuccess("Logger successfully initialized.");
   }
 
   /**
