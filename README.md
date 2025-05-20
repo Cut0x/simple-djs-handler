@@ -22,7 +22,7 @@ const { GatewayIntentBits } = require('discord.js');
 
 const client = new BotClient({
   token: 'YOUR_BOT_TOKEN',
-  client_id: 'YOUR_CLIENT_ID'
+  client_id: 'YOUR_CLIENT_ID',
   
   logger: {
     app_id: 'LOGGER-SIMPLE_APP_ID',
