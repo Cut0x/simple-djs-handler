@@ -35,7 +35,7 @@ class BotClient extends Client {
 
     // Initialize the logger with the provided configuration
     this.logger = new Logger(config.logger);
-    //this.logger.logSuccess("Logger successfully initialized.");
+    this.logger.logInfo("Logger initialized.");
   }
 
   /**
@@ -51,13 +51,13 @@ class BotClient extends Client {
       ? commandsPath
       : path.join(process.cwd(), commandsPath);
     if (!fs.existsSync(absolutePath)) {
-      this.logger.logError(`Directory not found: ${absolutePath}`);
+      this.logger.logInfo(`Directory not found: ${absolutePath}`);
       return;
     }
 
     const commandFiles = fs.readdirSync(absolutePath).filter(file => file.endsWith('.js'));
     if (commandFiles.length === 0) {
-      this.logger.logInfo(`No commands found in: ${absolutePath}`);
+      //this.logger.logInfo(`No commands found in: ${absolutePath}`);
     }
 
     for (const file of commandFiles) {
@@ -89,13 +89,13 @@ class BotClient extends Client {
       ? eventsPath
       : path.join(process.cwd(), eventsPath);
     if (!fs.existsSync(absolutePath)) {
-      this.logger.logError(`Events directory not found: ${absolutePath}`);
+      console.log(`Events directory not found: ${absolutePath}`);
       return;
     }
 
     const eventFiles = fs.readdirSync(absolutePath).filter(file => file.endsWith('.js'));
     if (eventFiles.length === 0) {
-      this.logger.logInfo(`No events found in: ${absolutePath}`);
+      console.log(`No events found in: ${absolutePath}`);
     }
 
     for (const file of eventFiles) {
