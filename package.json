@@ -1,6 +1,6 @@
 {
   "name": "simple-djs-handler",
-  "version": "9.0.0",
+  "version": "8.0.0",
   "description": "A powerful Discord.js v14+ handler with slash commands and auto-moderation support",
   "main": "src/index.js",
   "scripts": {
