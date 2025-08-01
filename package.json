@@ -1,35 +1,30 @@
 {
   "name": "simple-djs-handler",
-  "version": "7.2.2",
-  "description": "A module that makes your life easier when creating your bot by cleaning up your code!",
-  "main": "App.js",
+  "version": "8.0.0",
+  "description": "A powerful Discord.js v14+ handler with slash commands and auto-moderation support",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cut0x/simple-djs-handler.git"
-  },
   "keywords": [
-    "discordjs",
-    "nodejs",
-    "node",
     "discord",
+    "bot",
     "handler",
-    "javascript",
-    "bot"
+    "discord.js",
+    "slash-commands",
+    "auto-moderation"
   ],
+  "author": "Cut0x",
+  "license": "MIT",
   "dependencies": {
     "discord.js": "^14.14.1",
-    "fs": "0.0.1-security",
-    "node-logger-simple": "^5.1.1",
-    "path": "0.12.7",
-    "simple-djs-handler": "^5.0.0"
+    "colors": "^1.4.0"
   },
-  "author": "Cut0x",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Cut0x/simple-djs-handler/issues"
+  "engines": {
+    "node": ">=16.11.0"
   },
-  "homepage": "https://github.com/Cut0x/simple-djs-handler#readme"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cut0x/simple-djs-handler.git"
+  }
 }
